@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUDGET</title>
+    <link rel="stylesheet" href="budget.css">
+</head>
+<body>
+    <section id="firstSection">
+        <div class="moneyEarned">
+            <h1 class="h5 fw-light">MoneyEarned #</h1>
+            <span id="moneyEarned"></span>
+        </div>
+        <div class="moneyAvailable">
+            <h1 class="h5 fw-light">Money Available #</h1>
+            <span id="moneyAvailable"></span>
+        </div>
+        <div class="moneySpent">
+            <h1 class="h5 fw-light">Money Spent #</h1>
+            <span id="moneySpent"></span>
+        </div>
+    </section>
+    <section id="inputDetails">
+        <input id="description" type="text" placeholder="Description">
+        <input id="amount" type="number" placeholder="Amount">
+    </section>
+    <section id="btnSec">
+        <div>
+            <button id="btn1">Add income</button>
+        </div>
+        <div>
+            <button  id="btn2">Add Expenses</button>
+        </div>
+    </section>
+    <section id="display">
+        <div>
+            <p class="h3 fw-bolder">Income</p>
+            <span id="incomeDisplay"></span>
+        </div>
+        <div>
+            <p class="h3 fw-bolder">Expense</p>
+            <span id="expenseDisplay"></span>
+            
+        </div>
+    </section>
+
+
+
+
+    <script src="budget.js"></script>
+
+</body>
+</html>

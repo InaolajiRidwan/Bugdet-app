@@ -1,0 +1,85 @@
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+body {
+    background: rgb(157, 151, 151);
+}
+
+#firstSection {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 10px;
+}
+
+#inputDetails input {
+    height: 50px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+#inputDetails {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#btnSec {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+#btnSec button {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+#display {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+    #inputDetails input {
+        height: 40px; 
+        font-size: 14px; 
+        margin-left: 10px; 
+    }
+
+    #btnSec button {
+        height: 40px;
+        width: 120px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    #inputDetails input {
+        height: 30px; 
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    #btnSec button {
+        height: 30px; 
+        width: 100px; 
+    }
+}
